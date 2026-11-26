@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keyboard and mice</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="logo-wrap">
+      <a href="../index.html" aria-label="Go to Home">
+        <img class="logo" src="../images/logo.png" alt="ComputerForce logo" />
+      </a>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="nav-inner">
+      <button class="hamburger" aria-label="Toggle menu">
+  ☰
+</button>
+
+      <div class="menu-left" data-menu-links>
+        <a href="../index.html">Home</a>
+        <a href="../products.html">Products</a>
+        <a href="../register.html">Register</a>
+        <a href="../about.html">About</a>
+        <a href="../joyce/index.html">Joyce</a>
+      </div>
+
+      <form class="search-right" data-search-area data-search-form>
+        <input type="text" name="q" placeholder="Search…" aria-label="Search term" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <main id="main">
+      <h1>Keyboard and mice</h1>
+      <p>Select a product and add it to your cart.</p>
+
+      <div class="products-grid">
+
+        <article class="product" id="km-mech">
+          <img src="../images/Mechanical-Keyboard.webp" alt="Mechanical Keyboard" />
+          <div class="info">
+            <h3>Mechanical Keyboard</h3>
+            <p class="price">$129.00</p>
+            <button class="add-btn" type="button" data-add data-id="km-mech" data-name="Mechanical Keyboard" data-price="129.0">
+              Add to cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product" id="km-wireless">
+          <img src="../images/Wireless-Mouse.jpeg" alt="Wireless Mouse" />
+          <div class="info">
+            <h3>Wireless Mouse</h3>
+            <p class="price">$49.00</p>
+            <button class="add-btn" type="button" data-add data-id="km-wireless" data-name="Wireless Mouse" data-price="49.0">
+              Add to cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product" id="km-gaming">
+          <img src="../images/Gamer-Mouse.jpg" alt="Gaming Mouse" />
+          <div class="info">
+            <h3>Gaming Mouse</h3>
+            <p class="price">$79.00</p>
+            <button class="add-btn" type="button" data-add data-id="km-gaming" data-name="Gaming Mouse" data-price="79.0">
+              Add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <aside data-aside-panel>
+      <h2>Purchases</h2>
+
+      <table class="purchases" aria-label="Cart table">
+        <tbody id="cart-items">
+          <tr><td>0 items</td><td>Cart sub-total: $0</td></tr>
+        </tbody>
+      </table>
+
+      <button class="checkout-btn" type="button" id="checkout-btn">Go to Checkout</button>
+      <button class="checkout-btn" type="button" id="clear-cart-btn" style="margin-top:10px;background:#e5e7eb;color:#111;">
+        Clear Cart
+      </button>
+    </aside>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Joyce</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

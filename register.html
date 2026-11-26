@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="logo-wrap">
+      <a href="index.html" aria-label="Go to Home">
+        <img class="logo" src="images/logo.png" alt="ComputerForce logo" />
+      </a>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="nav-inner">
+      <button class="hamburger" aria-label="Toggle menu">
+  ☰
+</button>
+
+      <div class="menu-left" data-menu-links>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="register.html">Register</a>
+        <a href="about.html">About</a>
+        <a href="joyce/index.html">Joyce</a>
+      </div>
+
+      <form class="search-right" data-search-area data-search-form>
+        <input type="text" name="q" placeholder="Search…" aria-label="Search term" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <main id="main">
+      <h1>Register</h1>
+      <p>Create an account to speed up your checkout (demo only).</p>
+
+      <form style="max-width:520px">
+        <label for="fullname"><strong>Full name</strong></label><br>
+        <input id="fullname" name="fullname" type="text" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;margin:6px 0 12px;"><br>
+
+        <label for="email"><strong>Email</strong></label><br>
+        <input id="email" name="email" type="email" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;margin:6px 0 12px;"><br>
+
+        <label for="password"><strong>Password</strong></label><br>
+        <input id="password" name="password" type="password" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;margin:6px 0 12px;"><br>
+
+        <button type="submit" class="checkout-btn">Create account</button>
+      </form>
+    </main>
+
+    <aside data-aside-panel>
+      <h2>Purchases</h2>
+
+      <table class="purchases" aria-label="Cart table">
+        <tbody id="cart-items">
+          <tr><td>0 items</td><td>Cart sub-total: $0</td></tr>
+        </tbody>
+      </table>
+
+      <button class="checkout-btn" type="button" id="checkout-btn">Go to Checkout</button>
+      <button class="checkout-btn" type="button" id="clear-cart-btn" style="margin-top:10px;background:#e5e7eb;color:#111;">
+        Clear Cart
+      </button>
+    </aside>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Joyce</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

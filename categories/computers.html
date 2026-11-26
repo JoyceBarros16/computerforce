@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Computers</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="logo-wrap">
+      <a href="../index.html" aria-label="Go to Home">
+        <img class="logo" src="../images/logo.png" alt="ComputerForce logo" />
+      </a>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="nav-inner">
+      <button class="hamburger" aria-label="Toggle menu">
+  ☰
+</button>
+
+      <div class="menu-left" data-menu-links>
+        <a href="../index.html">Home</a>
+        <a href="../products.html">Products</a>
+        <a href="../register.html">Register</a>
+        <a href="../about.html">About</a>
+        <a href="../joyce/index.html">Joyce</a>
+      </div>
+
+      <form class="search-right" data-search-area data-search-form>
+        <input type="text" name="q" placeholder="Search…" aria-label="Search term" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <main id="main">
+      <h1>Computers</h1>
+      <p>Select a product and add it to your cart.</p>
+
+      <div class="products-grid">
+
+        <article class="product" id="pc-gaming">
+          <img src="../images/GamingPC-RTXReady.jpg" alt="Gaming PC - RTX Ready" />
+          <div class="info">
+            <h3>Gaming PC - RTX Ready</h3>
+            <p class="price">$1499.00</p>
+            <button class="add-btn" type="button" data-add data-id="pc-gaming" data-name="Gaming PC - RTX Ready" data-price="1499.0">
+              Add to cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product" id="pc-office">
+          <img src="../images/Office-Desktopi5.jpg" alt="Office Desktop i5" />
+          <div class="info">
+            <h3>Office Desktop i5</h3>
+            <p class="price">$899.00</p>
+            <button class="add-btn" type="button" data-add data-id="pc-office" data-name="Office Desktop i5" data-price="899.0">
+              Add to cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product" id="pc-mini">
+          <img src="../images/MiniPC-Compact.png" alt="Mini PC Compact" />
+          <div class="info">
+            <h3>Mini PC Compact</h3>
+            <p class="price">$699.00</p>
+            <button class="add-btn" type="button" data-add data-id="pc-mini" data-name="Mini PC Compact" data-price="699.0">
+              Add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <aside data-aside-panel>
+      <h2>Purchases</h2>
+
+      <table class="purchases" aria-label="Cart table">
+        <tbody id="cart-items">
+          <tr><td>0 items</td><td>Cart sub-total: $0</td></tr>
+        </tbody>
+      </table>
+
+      <button class="checkout-btn" type="button" id="checkout-btn">Go to Checkout</button>
+      <button class="checkout-btn" type="button" id="clear-cart-btn" style="margin-top:10px;background:#e5e7eb;color:#111;">
+        Clear Cart
+      </button>
+    </aside>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Joyce</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>
