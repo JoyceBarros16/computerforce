@@ -6,6 +6,10 @@ ComputerForce is a responsive e-commerce website developed as part of my Informa
 
 The project simulates an online electronics store, focusing on front-end development, product organisation, interactive functionality and user experience.
 
+## Live Demo
+
+[View the live website](https://joycebarros16.github.io/computerforce/)
+
 ## Technologies Used
 
 - HTML5
