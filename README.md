@@ -64,14 +64,14 @@ No real payments are processed.
 ### Registration Form
 ![Register](screenshots/register.png)
 
+### Developer Profile
+![Developer Profile](screenshots/joyce.png)
+
 ### Mobile Responsive Design
 ![Mobile Version](screenshots/mobile.png)
 
 ### Mobile Checkout
 ![Mobile Checkout](screenshots/mobile-checkout.png)
-
-### Developer Profile
-![Developer Profile](screenshots/joyce.png)
 
 ## How to Run the Project
 
